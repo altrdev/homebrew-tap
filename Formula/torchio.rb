@@ -1,28 +1,28 @@
 class Torchio < Formula
   desc "Break your containers on purpose: burn CPU, hold memory, fill disk and more, on demand over HTTP"
   homepage "https://github.com/altrdev/torchio"
-  version "4.1.1"
+  version "4.1.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/altrdev/torchio/releases/download/v4.1.1/torchio-macos-arm64"
-      sha256 "956adbe0d6fcfda61abec1bb2b81519956aaaca1e360fea2b0edac575b2175e7"
+      url "https://github.com/altrdev/torchio/releases/download/v4.1.2/torchio-macos-arm64"
+      sha256 "b84ac4f39eb56e80a696d2b68ffaae6a63fb1d399144b11cb3941ad7de873bbe"
     end
     on_intel do
-      url "https://github.com/altrdev/torchio/releases/download/v4.1.1/torchio-macos-amd64"
-      sha256 "d20ff3b7510656779d468ed78b29dda12f9664a741b7f2af08862befd661239c"
+      url "https://github.com/altrdev/torchio/releases/download/v4.1.2/torchio-macos-amd64"
+      sha256 "da9ae28efd192d73670153bf38db20a1126268c9d8bc2ebe7d79c0a4bd1d1bd7"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/altrdev/torchio/releases/download/v4.1.1/torchio-linux-arm64"
-      sha256 "27f11e95870bdbef1ac0ea9552c8f75503d82511694c1905309ef63e8c685057"
+      url "https://github.com/altrdev/torchio/releases/download/v4.1.2/torchio-linux-arm64"
+      sha256 "cd3abbc56402a2e135a6a4da56969d2b1e3e225e23effd8315399387031418fa"
     end
     on_intel do
-      url "https://github.com/altrdev/torchio/releases/download/v4.1.1/torchio-linux-amd64"
-      sha256 "6f976d8d19aad1351e5b0e094b331bd28b6016d0b544af4ab595d24699b7130c"
+      url "https://github.com/altrdev/torchio/releases/download/v4.1.2/torchio-linux-amd64"
+      sha256 "0c72b2ad611282459b102f53b70ec35f6b15e4e54ba8c30b2b0c19c8cfdfa982"
     end
   end
 
