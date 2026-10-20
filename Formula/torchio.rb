@@ -7,22 +7,22 @@ class Torchio < Formula
   on_macos do
     on_arm do
       url "https://github.com/altrdev/torchio/releases/download/v4.6.2/torchio-macos-arm64"
-      sha256 "f2b7895d301667fe2c20df1d9f06736ee615fc3f1a72598d8f14306cd10676f2"
+      sha256 "e90f3da8f25eda537ff2ed37665bea5b993a4227a1ae0cff6f982eeee081a0fd"
     end
     on_intel do
       url "https://github.com/altrdev/torchio/releases/download/v4.6.2/torchio-macos-amd64"
-      sha256 "d8416ae77805336b5a2f24976b1d89648ffa82b04f57c536fba76cd3e84a84e8"
+      sha256 "4b68269827e858453bfaa9189cb09aa484f5ae5c32c42a8cd0989e62d237538b"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/altrdev/torchio/releases/download/v4.6.2/torchio-linux-arm64"
-      sha256 "a79d67b3021ff04ada6d00d89b4cf6c787bd4b711486e5105ed2c967c3deaaa8"
+      sha256 "e42b540b77fd0977f9d2902d45058c75ddbbd92cffda756e7a55f57cb5d6be31"
     end
     on_intel do
       url "https://github.com/altrdev/torchio/releases/download/v4.6.2/torchio-linux-amd64"
-      sha256 "d29126ec8aff327813b4e2ebe3a79c352cfa0c125de93aec7eaee8fb4b1504c6"
+      sha256 "64f1d27f3fa939eb6f64eb0f411d4693ba6a1deabdf25b590ecfc93df83ab24d"
     end
   end
 
